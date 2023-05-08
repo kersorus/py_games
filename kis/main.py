@@ -15,7 +15,7 @@ class MyApp(App):
         self.current_stage += 1
 
         if self.current_stage == 1:
-            self.root.ids.label.text = "Мне передали, \nчто если на заднем фоне Ваше фото\n - надо нажмать на кнопку..."
+            self.root.ids.label.text = "Мне передали, \nчто если на заднем\n фоне Ваше фото\n - надо нажмать на кнопку..."
             self.root.ids.button1.text = "я кнопка, я кнопка"
             self.root.ids.button1.background_color = (0, 0, 1, 1)
             self.root.ids.background.source = "1.png"
